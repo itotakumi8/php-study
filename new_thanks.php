@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charaset=UTF-8">
-<title>PHP基礎</title>
+<title>入出庫管理</title>
 </head>
 <body>
 
