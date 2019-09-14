@@ -17,11 +17,11 @@ $amount = htmlspecialchars($amount);
 
 if( $shipdate == '')
 {
-    print '出荷日が入力されていません<br/>';
+    print '入荷日が入力されていません<br/>';
 }
 else
 {
-    print '出荷日：';
+    print '入荷日：';
     print $shipdate;
     print '<br/>';
 }
@@ -50,13 +50,13 @@ else
 
 if ($shipdate==''||$number==''||$amount=='')
 {
-    print '<form method="POST" action="new_thanks.php">';
+    print '<form method="POST" action="new_thanks2.php">';
     print '<input type="button" onclick="history.back()"value="戻る">';
     print '</form>'; 
 }
 else
 {
-    print '<form method="POST" action="new_thanks.php">';
+    print '<form method="POST" action="new_thanks2.php">';
     print '<input name = "shipdate" type="hidden" value="'.$shipdate.'">';
     print '<input name = "number" type="hidden" value="'.$number.'">';
     print '<input name = "amount" type="hidden" value="'.$amount.'">'.'<br/>';
